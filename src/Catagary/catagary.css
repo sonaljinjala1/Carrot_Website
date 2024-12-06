@@ -1,0 +1,121 @@
+
+
+/* catagary strat */
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+.catagary{
+    padding: 10px 0;
+    padding-bottom: 100px;
+}
+.catagary ul li{
+    list-style: none;
+    border-radius: 5px !important;
+    border: 1px solid #c8c7c7df;
+    margin-bottom: 5px !important;
+  
+}
+.catagary ul li button{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.5s;
+    border: none;
+   
+}
+.catagary ul li button:hover{
+    color: #64b496;
+}
+.catagary ul li span{
+    margin-top: 4px;
+    font-size: 12px;
+    color: #7a7a7a;
+    font-weight: 400;
+}
+.catagary ul li .active{
+    color: #64b496;
+}
+.catagary .img{
+    position: relative;
+    
+}
+.catagary .img h2{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: white;
+    font-size: 54px;
+    width: 100px;
+    align-items: center;
+    font-weight: 600;
+}
+.catagary .img h2 span{
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    color: white;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 10px 0 10px 5px;
+    font-weight: 600;
+    font-family: "Manrope", sans-serif;
+}
+.catagary .shop{
+    display: flex;
+}
+.catagary .shop button{
+    padding: 8px 22px;
+    background-color: #64b496;
+    transition: all 0.5s;
+}
+.catagary .shop button:hover{
+    background-color: black;
+    border: 1px solid white;
+}
+.catagary .shop button a{
+    font-size: 14px;
+    font-family: "Manrope", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+.catagary{
+    position: relative;
+    content: '';
+    justify-content: center !important;
+}
+.catagary .contant{
+    font-family: "Manrope", sans-serif;
+    position: absolute;
+    font-weight: bold;
+    top: 70%;
+    left: 38%;
+    color: white;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    flex-direction: column;
+}
+.catagary .contant h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+.catagary .img   img{
+   
+    height: 527px !important;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px !important;
+    
+}
+.catagary .img{
+    opacity: 1 !important;
+}
+
+/* catagary end */

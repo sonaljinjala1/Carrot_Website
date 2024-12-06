@@ -1,0 +1,209 @@
+.container{
+    max-width: 1320px !important;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+body{
+    margin: 0;
+    background-color: #fff;
+    letter-spacing: 0.03rem;
+    overflow-x: hidden;
+}
+ul, li{
+    list-style: none;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p {
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: #7a7a7a;
+    line-height: 1.75;
+} 
+
+
+/* popular start */
+.organic{
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.vegitables{
+    background-image: url('https://maraviyainfotech.com/projects/carrot/carrot-v2/carrot-html/assets/img/product/products-rightview.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    overflow: hidden;
+   width: 100%;
+    height: 404px;
+    border-radius: 5px;
+}
+.card-body i  svg{
+    color: #f5885f !important;
+}
+.vegitables h4{
+    margin-bottom: 0px;
+    font-family: "Manrope", sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1.562;
+    color: #2b2b2d;
+    text-align: right;
+}
+.vegitables span{
+    margin-left: 7px;
+    padding: 0 6px;
+    font-family: "Manrope", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #2b2b2d;
+}
+.vegitables h6{
+    font-size: 14px;
+    color: #2b2b2d;
+    font-family: "Manrope", sans-serif;
+    text-align: right;
+    margin-top: 20px;
+}
+.price {
+    color: #64b496;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 1.2;
+    text-align: right;
+    padding-top: 8px;
+}
+.price span{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.521);
+    font-weight: 600;
+    padding-left: 5px;
+    
+}
+.vegitables .shop{
+    margin-top: 25px;
+    display: flex;
+    justify-content: end;
+}
+.vegitables .shop button{
+    padding: 8px 22px;
+    background-color: #64b496;
+    transition: all 0.5s;
+}
+.vegitables .shop button:hover{
+    background-color: black;
+}
+.vegitables .shop button a{
+    font-size: 14px;
+    font-family: "Manrope", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.vegitables .veg-text{
+    padding: 24px;
+}
+
+
+/* card */
+
+.card{
+   width: 233px !important;
+   height: 404px !important;
+
+}
+
+.card .img{
+    overflow: hidden;
+}
+.card .img {
+    position: relative !important;
+    opacity: 1 !important;
+    border-radius: 5px;
+}
+.card .img img{
+    border-radius: 5px !important;
+}
+
+.card .image-card{
+    width: 416px;
+    height: 229px;
+    padding: 24px;
+    border-radius: 5px;
+}
+
+.card .card1{
+    background-image: url('https://maraviyainfotech.com/projects/carrot/carrot-v2/carrot-html/assets/img/product-banner/2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card .card2{
+    background-image: url('https://maraviyainfotech.com/projects/carrot/carrot-v2/carrot-html/assets/img/product-banner/1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card .card3{
+    background-image: url('https://maraviyainfotech.com/projects/carrot/carrot-v2/carrot-html/assets/img/product-banner/3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card .image-card h3{
+    font-family: "Manrope", sans-serif;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #2b2b2b;
+}
+
+.card .image-card p , .card .image-card span {
+    font-size: 14px;
+    line-height: 1.2;
+    color: #777;
+    padding-bottom: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+.card .image-card .percentage{
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #64b496;
+}
+
+.card  .image-card .shop{
+    display: flex;
+}
+.card  .image-card .shop button{
+    padding: 8px 22px;
+    background-color: #64b496;
+    transition: all 0.5s;
+}
+
+.card  .image-card .shop button:hover{
+    background-color: black;
+}
+
+.card  .image-card .shop button a{
+    font-size: 14px;
+    font-family: "Manrope", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+

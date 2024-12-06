@@ -1,0 +1,113 @@
+.container{
+    max-width: 1320px !important;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+body{
+    margin: 0;
+    background-color: #fff;
+    letter-spacing: 0.03rem;
+    overflow-x: hidden;
+}
+ul, li{
+    list-style: none;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p {
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: #7a7a7a;
+    line-height: 1.75;
+} 
+
+/* news start */
+
+.news .review-content{
+    padding-bottom: 100px;
+}
+
+.news .title{
+    padding-bottom: 35px;
+}
+
+.news .title h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: #2b2b2d;
+    
+}
+.news .title p{
+    color: #7a7a7a;
+   
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.news .card .card-body h5{
+    margin-top: 5px;    
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #2b2b2d;
+}
+
+.news .card .card-body p{
+ 
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2;
+    color: #7a7a7a;
+}
+
+.news .card .card-body p span{
+ 
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
+}
+
+.news .card .card-body p a{
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.875;
+    color: #777;
+    text-decoration: none;
+}
+
+.news .card .card-body .read , .news .card .card-body i{
+   
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.875;
+    color: #64b496;
+    text-decoration: none;
+}
+.card-body {
+    height: 164.05px !important;
+}
+.news .card{
+    overflow: hidden;
+    width: 414.4px !important;
+    margin: 0 10px !important; 
+}
+
+.news .card img{
+    transition: all 0.5s;
+    overflow: hidden !important;
+    height: 275.81px !important;
+}
+
+.news .card img:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+.news .news-text{
+    padding-bottom: 100px;
+}

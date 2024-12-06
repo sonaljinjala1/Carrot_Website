@@ -1,0 +1,131 @@
+.container{
+    max-width: 1320px !important;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+body{
+    margin: 0;
+    background-color: #fff;
+    letter-spacing: 0.03rem;
+    overflow-x: hidden;
+    font-family: 'Poppins' , sans-serif;
+}
+ul, li{
+    list-style: none;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p {
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-family: "Poppins, sans-serif";
+    color: #7a7a7a;
+    line-height: 1.75;
+} 
+/* banner start */
+
+.section1{
+    width: 100%;
+    background: url(../img/banner-2.jpg);  
+    color: white;   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100px;
+    height: 80vh;
+    position: relative;
+    content: ' ';
+    overflow: hidden !important;
+    margin-bottom: 100px;
+}
+.banner{
+    overflow: hidden;
+    position: relative;
+    content: '';
+}
+.container .row .banner{
+    max-width: 550px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    position: absolute;
+}
+.banner h5{
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 900;
+        color: black;
+        line-height: 30px;
+}
+.banner span{
+    margin-right: 5px;
+    color: #64b496;
+    font-weight: bold;
+    border-bottom: 2px solid #64b496;
+}
+.banner p{
+        font-size: 15px;
+}
+.banner h1 {
+    margin-bottom: 25px;
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 68px;
+    color: black;
+}
+.button {
+    margin-top: 30px;
+}
+.button a{
+    height: 40px;
+    width: 150px;
+    transition:0.5s;
+    padding: 12px 22px;
+    font-size: 14px;
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 1.2;
+    background-color: #64b496;
+    color: #fff;
+    border: 1px solid #64b496;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.button a:hover{
+    background-color: black;
+}
+.img{
+    position: absolute;
+    top: 0px;
+    opacity: 0.5;
+}
+.img1{
+    position: absolute;
+    left: 40%;
+    opacity: 0.6;
+    top: 0;
+}
+
+.img2{
+    position: absolute;
+    bottom: 0%;
+    left: 1%;
+    opacity: 0.5;
+}
+.img3{
+    position: absolute;
+    bottom: -4%;
+    left: 50%;
+    opacity: 0.5;
+    overflow: hidden;
+}
+
+/* Bnner-end */
